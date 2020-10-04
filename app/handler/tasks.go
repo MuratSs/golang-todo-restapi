@@ -7,7 +7,7 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/jinzhu/gorm"
-	"github.com/mingrammer/go-todo-rest-api-example/app/model"
+	"github.com/MuratSs/golang-todo-restap/app/model"
 )
 
 func GetAllTasks(db *gorm.DB, w http.ResponseWriter, r *http.Request) {
