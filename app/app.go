@@ -7,9 +7,9 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/jinzhu/gorm"
-	"github.com/mingrammer/go-todo-rest-api-example/app/handler"
-	"github.com/mingrammer/go-todo-rest-api-example/app/model"
-	"github.com/mingrammer/go-todo-rest-api-example/config"
+	"github.com/MuratSs/golang-todo-restap/app/handler"
+	"github.com/MuratSs/golang-todo-restap/app/model"
+	"github.com/MuratSs/golang-todo-restap/config"
 )
 
 // App has router and db instances
